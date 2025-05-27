@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import profilePic from '../assets/profile.jpg'; // Make sure to add your image in src/assets and name it accordingly
 
 const About = () => {
