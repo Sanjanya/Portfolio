@@ -17,7 +17,7 @@ const Projects = () => {
     {
       title: "Indian School Of Modern Languages",
       description: "A comprehensive web portal developed using the MERN stack for managing courses, student data, and faculty resources.",
-      technologies: ["MongoDB", "Express", "React", "Node.js"],
+      technologies: ["Supabase", "Express", "React", "Node.js"],
       status: "In Progress",
       gradient: "from-blue-500 to-purple-600",
     },
