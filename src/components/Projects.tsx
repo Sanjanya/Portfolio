@@ -1,25 +1,23 @@
-//import React from 'react';
-
 const Projects = () => {
   const projects = [
     {
       title: "AI Task Manager",
       description: "Intelligent task management system with natural language processing and smart prioritization algorithms.",
       technologies: ["React", "Python", "TensorFlow", "PostgreSQL"],
-      status: "Featured",
+      status: "Completed",
       gradient: "from-cyan-500 to-blue-600",
     },
     {
       title: "Code Visualizer",
       description: "Interactive platform for visualizing algorithms and data structures with real-time step-by-step execution.",
       technologies: ["TypeScript", "D3.js", "WebGL", "Node.js"],
-      status: "Open Source",
+      status: "In Progress",
       gradient: "from-purple-500 to-pink-600",
     },
     {
-      title: "Blockchain Analytics",
-      description: "Real-time cryptocurrency analysis dashboard with predictive modeling and portfolio optimization.",
-      technologies: ["Python", "React", "Web3", "Machine Learning"],
+      title: "Indian School Of Modern Languages",
+      description: "A comprehensive web portal developed using the MERN stack for managing courses, student data, and faculty resources.",
+      technologies: ["MongoDB", "Express", "React", "Node.js"],
       status: "In Progress",
       gradient: "from-blue-500 to-purple-600",
     },
@@ -64,7 +62,7 @@ const Projects = () => {
                     {project.description}
                   </p>
 
-                  <div className="flex flex-wrap gap-2 mb-6">
+                  <div className="flex flex-wrap gap-2">
                     {project.technologies.map((tech, techIndex) => (
                       <span
                         key={techIndex}
@@ -73,17 +71,6 @@ const Projects = () => {
                         {tech}
                       </span>
                     ))}
-                  </div>
-
-                  <div className="flex gap-4">
-                    <button className="text-cyan-400 hover:text-cyan-300 transition-colors text-sm font-semibold flex items-center gap-2">
-                      <span>View Code</span>
-                      <span>→</span>
-                    </button>
-                    <button className="text-purple-400 hover:text-purple-300 transition-colors text-sm font-semibold flex items-center gap-2">
-                      <span>Live Demo</span>
-                      <span>↗</span>
-                    </button>
                   </div>
                 </div>
               </div>
